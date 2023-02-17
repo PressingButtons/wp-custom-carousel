@@ -1,0 +1,7 @@
+.wp-custom-carousel { 
+    overflow: hidden;
+}
+
+.wp-custom-carousel > figure {
+    float: left;
+}
