@@ -1,7 +1,13 @@
 .wp-custom-carousel { 
-    overflow: hidden;
+    display: grid;
+    grid-template-columns: 100px, 1fr, 100px;
 }
 
-.wp-custom-carousel > figure {
+.wp-custom-carousel-gallery-wrapper {
+    overflow: hidden;
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.wp-custom-carousel figure.wp-block-gallery.has-nested-images > figure {
     float: left;
 }
